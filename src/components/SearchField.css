@@ -1,0 +1,37 @@
+.search {
+  width: 30%;
+  display: flex;
+  margin: 20px auto 0;
+}
+
+.search-input {
+  width: 100%;
+  border: 3px solid #fcad03;
+  border-right: none;
+  padding: 5px;
+  height: 22px;
+  border-radius: 5px 0 0 5px;
+  color: #9dbfaf;
+  /* outline: none; */
+}
+
+.searchTerm:focus {
+  color: #fcad03;
+}
+
+.searchButton {
+  width: 40px;
+  /* height: 38px; */
+  background: #fcad03;
+  text-align: center;
+  border: 1px solid #fcad03;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  /* background: url(../assets/loupe.svg); */
+  /* background-position: 50%, 50%; */
+}
+
+.searchButton img {
+  width: 20px;
+  height: 20px;
+}
